@@ -11,9 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       title = "My Garage"
+       
+        title = "My Garage"
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "Hot_M.JPG")!)
+       
     }
 
-
 }
-
